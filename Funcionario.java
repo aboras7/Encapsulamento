@@ -56,7 +56,8 @@ public class Funcionario {
         this.id = id;
     }
     public void visualizar() {
-        System.out.println("Nome: " + this.nome + "\nSexo: " + this.sexo + "\nIdade: " + this.idade + "\nTurno: " + this.turno + "\nID: " + this.id + "\n");
+        System.out.println("Funcionário: ");
+        System.out.println("Nome: " + this.nome + "\nSexo: " + this.sexo + "\nIdade: " + this.idade + "\nTurno: " + this.turno + "\nID: " + this.id);
     }
 }
 
