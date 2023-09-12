@@ -64,7 +64,9 @@ public class Cliente {
     }
 
     public void visualizar() {
-        System.out.println("Nome: " + this.nome + "\nIdade: " + this.idade + "\nPeso: " + this.peso + "\nAltura: " + this.altura + "\nRG: " + rg + "\n");
+        System.out.println("Dados do cliente: ");
+        System.out.println("Nome: " + this.nome + "\nIdade: " + this.idade + "\nPeso: " + this.peso + "\nAltura: "
+                + this.altura + "\nRG: " + rg );
 
     }
 }
